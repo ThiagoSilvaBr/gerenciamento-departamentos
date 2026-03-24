@@ -8,11 +8,11 @@ public class DepartamentoModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    private Long id;
     @Column(name = "DepartamentoNome")
-    String nome;
+    private String nome;
     @Column(name = "DepartamentoLocalizacao")
-    String localizacao;
+    private String localizacao;
 
     public DepartamentoModel() {
     }
